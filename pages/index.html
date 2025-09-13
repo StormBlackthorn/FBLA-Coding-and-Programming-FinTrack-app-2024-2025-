@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinTrack - Dashboard</title>
+    <link rel="stylesheet" href="../src/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.3/build/global/luxon.min.js"></script>
+    <script src="../src/dashboard.js" type="module"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h1 class="app-name">FinTrack</h1>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="table.html">Table</a>
+        </nav>
+    </div>
+    <main>
+        <div class="panels">
+            <div class="balance-panel">
+                <h2>Total Balance</h2>
+                <p id="total-balance">$0.00</p>
+            </div>
+            <div class="charts">
+                <div class="chart-container three-quarters-width">
+                    <h2>Income vs Expenses</h2>
+                    <canvas id="line-chart"></canvas>
+                </div>
+                <div class="chart-container half-width">
+                    <h2>Expenses by Category</h2>
+                    <canvas id="pie-chart"></canvas>
+                </div>
+                <div class="chart-container half-width">
+                    <h2>Income by Category</h2>
+                    <canvas id="income-pie-chart"></canvas>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
