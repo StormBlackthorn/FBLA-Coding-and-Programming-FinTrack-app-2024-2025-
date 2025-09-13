@@ -1,5 +1,7 @@
 I made this for FBLA *coding and programming event*. Unfortunately at the time I could not present at all...and since FBLA is mostly all about presenting, although this app was good(for the time I had to make it), I did not make it past my school regionals. :(
 
+tbf tho, with my UI/UX designing skills, I would not have made it past states :p
+
 Hey but its okay I won Nationals first place for Network Design event :)
 
 Andy, if you're reading this, I carried us, HARD
@@ -67,4 +69,5 @@ This project is a finance tracking application named FinTrack. It allows users t
 - [x] More chart functions
 - [x] Import/export to CSV
 - [x] More advanced filter function (and/or conditions)
+
 
